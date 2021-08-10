@@ -4,6 +4,7 @@ public class Hotel {
     private String hotelName;
     private int rateRegularWeekdays;
     private int rateRegularWeekend;
+    public int ratings;
 
     public Hotel(String hotelName, int rateRegularWeekdays,int rateRegularWeekend) {
         this.hotelName = hotelName;
@@ -38,4 +39,13 @@ public class Hotel {
 
         this.rateRegularWeekend = rateRegularWeekend;
     }
+
+    public int getRatings() {
+        return ratings;
+    }
+
+    public void setRatings(int ratings) {
+        this.ratings = ratings;
+    }
+
 }
