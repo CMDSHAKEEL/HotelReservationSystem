@@ -12,14 +12,17 @@ public class Hotel {
     }
 
     public String getHotelName() {
+
         return hotelName;
     }
 
     public void setHotelName(String hotelName) {
+
         this.hotelName = hotelName;
     }
 
-    public int getRateRegularCustomer() {
+    public int getRateRegularCustomer()
+    {
         return rateRegularWeekdays;
     }
 
@@ -32,6 +35,7 @@ public class Hotel {
     }
 
     public void setRateRegularWeekend(int rateRegularWeekend) {
+
         this.rateRegularWeekend = rateRegularWeekend;
     }
 }

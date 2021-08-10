@@ -7,11 +7,11 @@ import java.util.HashMap;
 
 public class HotelReservation {
     public static HashMap<String,Hotel> listOfHotels = new HashMap<>();
-
-// creation main method
-
+       /*
+     creation main method
+        */
     public static void main(String[] args) {
-        System.out.println("Welcome to Hotel Reservation System");
+        System.out.println("*******Welcome to Hotel Reservation System******");
 
     }
 
